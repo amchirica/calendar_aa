@@ -69,7 +69,7 @@ header h1 {
 .day:hover {
   background-color: #e7e7e7;
 }
-*/ .task-day {
+* .task-day {
   display: flex;
   gap: 10px;
 }
