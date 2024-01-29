@@ -7,7 +7,7 @@ function Button() {
     const handleLogout=async()=>{
         await axios({
             method: "get",
-            url: "http://localhost:3000/api/auth/logout"
+            url: "http://raianvisual.ro"
         })
         router.push("/login")
     }

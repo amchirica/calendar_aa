@@ -1,6 +1,12 @@
-/** @type {import('next').NextConfig} */
-const nextConfig = {
+// next.config.js
+module.exports = {
   reactStrictMode: true,
-}
-
-module.exports = nextConfig
+  exportPathMap: async function () {
+    return {
+      '/': { page: '/' },
+      '/login': { page: '/login' },
+      '/register': { page: '/register' },
+      // Adaugă aici orice alte rute statice care nu folosesc `getServerSideProps`
+    };
+  },
+};

@@ -14,11 +14,11 @@ function Calendar() {
   const names = [
     "Luni",
     "Marti",
-    "Miercuri",
+    "Mie",
     "Joi",
-    "Vineri",
-    "Sambata",
-    "Duminica",
+    "Vin",
+    "Sam",
+    "Dum",
   ];
 
   return (
